@@ -1,0 +1,109 @@
+.cart {
+  height: 100vh;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.cart > main {
+  padding: 2rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  background-color: rgb(29, 29, 29);
+}
+
+.cart > main > h1 {
+  color: white;
+}
+
+.cart > aside {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.182);
+}
+
+.cart > aside > h2 {
+  margin: 1rem;
+}
+
+.cartItem {
+  background-color: white;
+  width: 85%;
+  border-radius: 10px;
+  border: 2px solid rgb(31, 31, 31);
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.5);
+  margin: 2rem 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartItem > img {
+  width: 20%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.cartItem > div {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.cartItem > div > button {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  font-size: x-large;
+}
+
+article {
+  display: flex;
+  width: 30%;
+  gap: 10%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: x-large;
+}
+
+.deleteIcon {
+  font-size: 24px;
+  &:hover {
+    color: red;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart > main {
+    width: 100%;
+  }
+
+  .cart > aside {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .cartItem {
+    width: 100%;
+  }
+}

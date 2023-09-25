@@ -1,0 +1,9 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  background-color: rgb(29, 29, 29);
+  width: 100%;
+  min-height: 90vh;
+}

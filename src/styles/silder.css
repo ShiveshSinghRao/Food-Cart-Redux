@@ -1,0 +1,27 @@
+.carousel-container {
+  text-align: center;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > img {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+  }
+  border: 1px soild rgb(29, 29, 29);
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 0;
+  }
+
+  .slide > img {
+    height: auto;
+    width: 100%;
+  }
+}
