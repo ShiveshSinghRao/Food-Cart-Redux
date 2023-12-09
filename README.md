@@ -2,15 +2,14 @@
 
 This is a simple online food ordering system developed using React and Redux, allowing users to browse a menu, add items to their cart, and manage their orders.
 
-## Table of Contents
+![image](https://github.com/ShiveshSinghRao/Food-Cart-Redux/assets/94308757/e7888352-8a0a-4af8-8b22-9dd050b7c5c2)
 
-- [Features](#features)
-- [Folder Structure](#folder-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+
+![image](https://github.com/ShiveshSinghRao/Food-Cart-Redux/assets/94308757/c9f8fe69-180c-4723-babe-ce3af509e6b8)
+
+Project link: https://voluble-cocada-d453f8.netlify.app/
+
+
 
 ## Features
 
